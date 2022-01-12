@@ -1,6 +1,6 @@
 # traverse-remap
 
-Traverse and transform objects by visiting every node on a recursive walk.
+Traverse and remap objects by visiting every node on a recursive walk.
 
 ## Available Scripts
 
@@ -17,5 +17,5 @@ console.dir(result);
 
 Output:
 ```javascript
-[ 0, 100, 100, [ 100, 100, 100, 0 ], { f: 100, g: 100 } ]
+[ 0, 100, 0, [ 100, 100, 0, 0 ], { f: 100, g: 0 } ]
 ```
